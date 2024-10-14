@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+    <!--Form Structure-->
+    <form>
+        <h1>Form 1</h1>
+        <h1>Please Fill Up The Form</h1>
+        Enter Name: <input type="text"><br><br>
+        Enter RollNo: <input type="text"><br><br>
+        Enter Phn No.: <input type="number"><br><br>
+        Enter Email ID: <input type="email"><br><br>
+        Enter Password: <input type="password"><br><br>
+        
+        <input type="button" value="Submit"><br><br><hr>
+    </form>
+
+    <form>
+        <h1>Form 2</h1>
+        <h2>Text Field & Read-Only & Disabled</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" value="John" readonly> <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" value="Doe" disabled> <br><br>
+        <label for="Age">Age</label>
+        <input type="text" id="age" name="age"> <br><br>
+        <input type="button" value="Submit"><br><br><hr>
+    </form>
+
+    <!--Radio Button-->
+    <Form>
+        <h2>Radio Button</h2>
+        <input type="Radio" id="html" name="favlang" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="Radio" id="css" name="favlang" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="Radio" id="JS" name="favlang" value="JS">
+        <label for="js">JS</label>
+        <br><br><hr>
+    </Form>
+
+    <!--CheckBox-->
+    <Form>
+        <h2>Checkbox</h2>
+        <input type="checkbox" id="html" name="favlang" value="HTML">
+        <label for="html">I Know HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="favlang" value="CSS">
+        <label for="css">I Know CSS</label>
+        <br>
+        <input type="checkbox" id="JS" name="favlang" value="JS">
+        <label for="js">I Know JS</label>
+        <br><br>
+        <input type="submit" value="Submit"><br><br><hr> <!--Check the syntax for button-->
+    </Form>
+
+    <!--Select-->
+    <Form>
+        <h2>Select</h2>
+        <label for="cars">Choose a Car:</label>
+        <select name="cars" id="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="BMW" selected>BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini">Lamborghini</option>
+        </select>
+        <br><br><hr>
+    </Form>
+
+    <!--TextArea and Button-->
+    <form>
+        <h2>TextArea and Button</h2>
+        <textarea name="msg" rows="10" cols="30">Hello! This is the another Form Element that is the (TextArea) & (Button)</textarea><br><br>
+        <button type="button" onclick="alert('Hello World!')">Click Me !</button><br><br><hr>
+    </form>
+    
+    <!--Legend & Fieldset-->
+    <form action="/Lec_Form1.html">
+        <h2>Legend & Fieldset</h2>
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"> <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"> 
+        </fieldset>
+        <br><br><hr>
+    </form>
+
+    <!--DataList-->
+    <form action="/Lec_Form1.html">
+        <h2>DataList</h2>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="FireFox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist> <br><br><hr>
+    </form>
+
+    <!--Input Types-->
+    <form action="/Lec_Form1.html">
+        <h2>Input Types</h2>
+         
+        Button: <input type="button"><br><br>
+        Checkbox: <input type="checkbox"><br><br>
+        Color: <input type="color"><br><br>
+        Date: <input type="date"><br><br>
+        DateTime: <input type="datetime-local"><br><br>
+        Email: <input type="email"><br><br>
+        File: <input type="file"><br><br>
+        Image: <input type="image"><br><br>
+        Hidden: <input type="hidden"><br><br>
+        Month: <input type="month"><br><br>
+        Number: <input type="number"><br><br>
+        Password: <input type="password"><br><br>
+        Radio: <input type="radio"><br><br>
+        Range: <input type="range"><br><br>
+        Reset: <input type="reset"><br><br>
+        Search: <input type="search"><br><br>
+        Tel: <input type="tel"><br><br>
+        Text: <input type="text"><br><br>
+        Time: <input type="time"><br><br>
+        URL: <input type="url"><br><br>
+        Week: <input type="week">
+        <br><br><hr>
+    </form>
+
+    <form>
+        <h2>Size & MaxLength Attribute</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" size="50"> <br><br>
+        <label for="PIN">PIN: </label>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4"> <br><br>
+        <hr>
+    </form>
+
+    <form>
+        <h2>Min & Max Attribute</h2>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="date" name="date" max="1979-12-31"> <br><br>
+
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" max="2000-01-02"><br><br>
+
+        <label for="Qty">Qty (Between 1 & 5):</label>
+        <input type="number" id="qty" name="qty" min="1" max="5"><br><br>
+        <hr>
+    </form>
+
+    <form>
+        <h2>Multiple Attribute</h2>
+        <label for="files">Select:</label>
+        <input type="file" id="file" name="file" multiple> <br><br>
+        <hr>
+    </form>
+</body>
+</html>
