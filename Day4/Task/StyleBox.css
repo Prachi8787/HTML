@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 20px;
+}
+
+p{
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 20px 30px 10px 30px;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 6px;
+
+    border: solid;
+    background-color: lightskyblue;
+    width: 30%;
+    height: 35vh;
+}

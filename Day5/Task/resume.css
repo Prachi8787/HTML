@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10%;
+    justify-content: center;
+}
+img{
+    max-width: 190px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0px 0px 16px rgb(51, 174, 215);
+}
+.container1{
+
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 30%;
+    background-color: aliceblue;
+}
+
+.container1 h1{
+    font-family: sans-serif;
+}
+
+h2{
+    text-decoration-line: underline;
+}
+
+ul{
+    list-style: none;
+    list-style-position: inside;
+    line-height: 22px;
+}
+
+.list{
+    list-style-type:square;
+}
+
+.container2{
+    background-color:lightblue ;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}

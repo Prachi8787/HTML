@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 88, 88);
+    color: white;
+    padding: 15px 30px;
+}
+
+.navmenu h2 {
+    margin-right: 20%; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navmenu nav {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0 15px; 
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav:hover {
+    color: rgb(20, 255, 255);
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+}
+
+.wlcmBox{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 18px;
+    border-radius: 8px; 
+    line-height: 35px;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+.btn{
+    background-color: rgba(255, 68, 0, 0.936);
+    margin: 0 25% 0 25%;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.Services{
+    padding: 2% 0% 2% 1%;
+    line-height: 25px;
+}
+
+.ser_h2{
+    color:rgb(68, 151, 219);
+    padding-bottom: 1%;
+}
+
+.p2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.Services ul{
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 0; 
+    list-style-position: inside;
+    padding-left: 2%;
+}
+
+.Services li{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.aboutus{
+    padding: 2% 0% 2% 1%;
+    background-color: rgba(211, 211, 211, 0.557);
+    line-height: 25px;
+}
+
+.abt_h2{
+    color: rgb(67, 190, 30);
+    padding-bottom: 1%;
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact{
+    padding: 2% 0% 2% 1%;
+    line-height: 25px;
+}
+
+.con_h2{
+    color: red;
+    padding-bottom: 1%;
+}
+
+.p4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color:  rgb(13, 88, 88);
+    color: white;
+    padding: 2%;
+    text-align: center;
+}

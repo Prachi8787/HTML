@@ -1,0 +1,68 @@
+/* (*) indicates universal selector  */
+*{
+    margin: 10px;
+}
+
+body{
+    background-image: url("./spongebob_bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right top;
+
+    background-attachment: scroll; /* Img will move along the text or the content*/
+    background-attachment: fixed; /* Img will get stick & won't move*/
+}
+
+label{
+    color:lightpink;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: 600;
+    margin: 5px;
+
+}
+
+input{
+    color:lightcoral;
+}
+
+h1,p,form{
+    margin: 10px;
+}
+
+h1{
+    border: ridge;
+    border-radius: 25px;
+    border-color: rgb(228, 255, 186);
+    padding: 10px;
+}
+
+form{
+    outline-style: dotted;
+    outline-width: 3px;
+    outline-color: rgb(116, 233, 0);
+    outline-offset: 5px; /* creates a space between outline and border*/
+
+    border: dotted;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color:greenyellow;
+    padding: 25px;
+    margin-right: 50%;
+}
+
+#button{
+    color:rgb(130, 19, 88);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(233, 255, 144);
+}
+
+p.p_styling{
+    color: rgb(222, 242, 255);
+    font-variant: small-caps;
+    border: double;
+    margin-right: 50%;
+    padding: 20px;
+    direction: ltr; /*ltr: Left to Right, rtl: Right to Left*/
+    unicode-bidi:bidi-override;
+}
